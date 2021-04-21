@@ -1,16 +1,18 @@
 # vuetifyapp1
+## App Semana 13 (Sobre plataformas de Entretenimiento y Musica)
 
 ## Project setup
+### Instalar Dependencias para el proyecto (node_modules)
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar y hot-reloads para desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar y minificar para produccion
 ```
 npm run build
 ```
@@ -20,5 +22,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### Personalizar Configuracion
 See [Configuration Reference](https://cli.vuejs.org/config/).
