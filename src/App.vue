@@ -7,10 +7,10 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
-            Application
+            Titulo de la pagina
           </v-list-item-title>
           <v-list-item-subtitle>
-            subtext
+            Subtitulo
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -49,7 +49,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>Titulo de la pagina</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -83,11 +83,11 @@ export default {
      drawer: null,
      items: [
           { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
-          { title: 'Sobre Nosotros', icon: 'mdi-help-box', path: '/About'},
-          { title: 'Series y Peliculas', icon: 'mdi-help-box', path: '/SeriesPeliculas'},
-          { title: 'Musica', icon: 'mdi-help-box', path: '/Musica'},
-          { title: 'Game Streaming Platforms', icon: 'mdi-help-box', path: '/StreamingJuegos'},
-          { title: 'Gloud Gaming', icon: 'mdi-help-box', path: '/CloudGaming'}
+          { title: 'Series y Peliculas', icon: 'mdi-movie-open-outline', path: '/SeriesPeliculas'},
+          { title: 'Musica', icon: 'mdi-music-circle-outline', path: '/Musica'},
+          { title: 'Game Streaming Platforms', icon: 'mdi-gamepad-square-outline', path: '/StreamingJuegos'},
+          { title: 'Gloud Gaming', icon: 'mdi-cloud', path: '/CloudGaming'},
+          { title: 'Sobre Nosotros', icon: 'mdi-account-box-multiple-outline', path: '/About'}
         ],
         right: null,
          }),
@@ -96,23 +96,10 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
