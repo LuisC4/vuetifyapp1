@@ -7,7 +7,7 @@
 npm install
 ```
 
-### Compilar y hot-reloads para desarrollo
+### Compilar y recarga en tiempo real para desarrollo
 ```
 npm run serve
 ```
