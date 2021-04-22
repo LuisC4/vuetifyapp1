@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <h1>Hola xd</h1>
-    <p>Soy el primer parrafo de Hola Mundo!</p>
+    <h1>Dashboard</h1>
+    <p>Soy la pagina principal!</p>
     
   </v-container>
 </template>

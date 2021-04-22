@@ -3,7 +3,10 @@
     <v-app id="inspire">
     <v-navigation-drawer
     app
-    v-model="drawer">
+    v-model="drawer"
+            permanent
+        expand-on-hover>
+    
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
@@ -26,6 +29,7 @@
           :key="item.title"
           link
           :to="item.path"
+           color="primary"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -36,6 +40,16 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <template v-slot:append>
+        <div class="pa-2">
+          <v-switch
+        v-model="$vuetify.theme.dark"
+        inset
+        label="Tema Oscuro"
+        persistent-hint
+      ></v-switch>
+        </div>
+      </template>
     </v-navigation-drawer>
 
      <!-- 
@@ -43,16 +57,13 @@
       -->
     <div>
     <v-app-bar app id="appbarmain"
-      color="deep-purple accent-4"
-      dense
-      dark
+      absolute
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Titulo de la pagina</v-toolbar-title>
 
       <v-spacer></v-spacer>
-
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
       </v-btn>
@@ -83,11 +94,11 @@ export default {
      drawer: null,
      items: [
           { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
-          { title: 'Series y Peliculas', icon: 'mdi-movie-open-outline', path: '/SeriesPeliculas'},
-          { title: 'Musica', icon: 'mdi-music-circle-outline', path: '/Musica'},
-          { title: 'Game Streaming Platforms', icon: 'mdi-gamepad-square-outline', path: '/StreamingJuegos'},
+          { title: 'Series y Peliculas', icon: 'mdi-movie-open', path: '/SeriesPeliculas'},
+          { title: 'Musica', icon: 'mdi-music-circle', path: '/Musica'},
+          { title: 'Game Streaming Platforms', icon: 'mdi-gamepad-square', path: '/StreamingJuegos'},
           { title: 'Gloud Gaming', icon: 'mdi-cloud', path: '/CloudGaming'},
-          { title: 'Sobre Nosotros', icon: 'mdi-account-box-multiple-outline', path: '/About'}
+          { title: 'Sobre Nosotros', icon: 'mdi-account-box-multiple', path: '/About'}
         ],
         right: null,
          }),
