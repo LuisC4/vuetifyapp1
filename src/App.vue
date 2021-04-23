@@ -10,10 +10,11 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
-            Titulo de la pagina
+            <v-img src="./assets/gaming.svg" max-width="150"></v-img>
+            Entretenimiento
           </v-list-item-title>
           <v-list-item-subtitle>
-            Subtitulo
+            Programacion Computacion IV
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -59,13 +60,13 @@
     <v-app-bar app id="appbarmain"
       absolute
     >
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Titulo de la pagina</v-toolbar-title>
+      <v-toolbar-title>Entretenimiento</v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
+      <v-btn href="https://github.com/LuisC4/vuetifyapp1" target="_blank">
+        <v-icon class="mr-3">mdi-github</v-icon>
+        Repositorio
       </v-btn>
     </v-app-bar>
   </div>
@@ -96,7 +97,7 @@ export default {
           { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
           { title: 'Series y Peliculas', icon: 'mdi-movie-open', path: '/SeriesPeliculas'},
           { title: 'Musica', icon: 'mdi-music-circle', path: '/Musica'},
-          { title: 'Game Streaming Platforms', icon: 'mdi-gamepad-square', path: '/StreamingJuegos'},
+          { title: 'Game Streaming', icon: 'mdi-gamepad-square', path: '/StreamingJuegos'},
           { title: 'Gloud Gaming', icon: 'mdi-cloud', path: '/CloudGaming'},
           { title: 'Sobre Nosotros', icon: 'mdi-account-box-multiple', path: '/About'}
         ],
@@ -107,6 +108,7 @@ export default {
 
 <style lang="scss">
 #app {
+  font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
