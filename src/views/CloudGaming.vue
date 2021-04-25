@@ -1,6 +1,6 @@
 <template>
     <div id="CloudGaming">
-      <v-container>
+      <v-container class="mt-5">
         <v-alert
       border="left"
       colored-border
@@ -15,7 +15,6 @@
       <v-row justify="center">
         <v-col md="4">
             <v-img
-        lazy-src="https://picsum.photos/id/11/10/6"
         contain
         max-height="300"
         max-width="400"
@@ -25,7 +24,6 @@
       <v-col md="4">
       <v-img
         contain
-        lazy-src="https://picsum.photos/id/11/10/6"
         max-height="300"
         max-width="400"
         src="../assets/right.svg"
@@ -57,14 +55,14 @@
       <v-col md="8">
         <div>
         <h1>Shadow</h1>
-        <p class="text-sm-body-2 text-md-body-1 text-xl-h6 text-left">Shadow es la empresa solitaria que presta un servicio realizado. En realidad, no ofrece juegos en la nube, pero ofrece juegos de computación en la nube. Siendo el único en el mercado, es, por defecto, el proveedor de juegos en la nube más recomendado por los consumidores. Ofrece una biblioteca de juegos gigantesca, juegos de alto rendimiento y un período de accesibilidad importante. Incluso con un gran ancho de banda con un ping bajo, se retrasa con respecto al desplazamiento y tiene problemas en la capacidad de respuesta del cursor.</p>
+        <p class="text-sm-body-2 text-md-body-1 text-xl-h6 text-left">Shadow es la empresa solitaria que presta un servicio realizado. En realidad, no ofrece juegos en la nube, pero ofrece computadoras en la nube. Siendo el único en el mercado, es, por defecto, el proveedor de juegos en la nube más recomendado por los consumidores. Ofrece una biblioteca de juegos gigantesca, juegos de alto rendimiento y un período de accesibilidad importante. Incluso con un gran ancho de banda con un ping bajo, se retrasa con respecto al desplazamiento y tiene problemas en la capacidad de respuesta del cursor.</p>
         <v-expansion-panels accordion>
       <v-expansion-panel>
         <v-expansion-panel-header class="text-sm-body-1 text-md-subtitle-1">Caracteristicas de este proveedor</v-expansion-panel-header>
         <v-expansion-panel-content class="text-sm-body-2 text-md-body-1 text-left">
           <ul>
             <li>Ofrece transmisión 4k en ultra alta definición sin problemas de latencia, aunque recomienda tener una conexión de un mínimo de 5 Mbps.</li>
-            <li>El servicio de juegos en la sombra siempre está actualizado con la PC y utiliza una GPU dedicada para funcionar de la manera más impecable posible.</li>
+            <li>El servicio de juegos en shadow siempre está actualizado con la PC y utiliza una GPU dedicada para funcionar de la manera más impecable posible.</li>
             <li>Shadow ha considerado que los usuarios compartan archivos y carpetas con amigos o conocidos para crecer.</li>
             <li>Esta plataforma de juegos ofrece a sus clientes comprar almacenamiento; inicialmente, a partir de 256 GB, un usuario puede ampliar su almacenamiento a 2 TB.</li>
           </ul>
@@ -93,6 +91,7 @@
     
     </div>
     <!-- FIN PRIMER SHADOW -->
+    <v-divider class="mt-5"></v-divider>
     <!-- SEGUNDO NVIDIA GEFORCE NOW-->
     <div id="Cloud__Nvidia" class="mt-10">
     <v-row>
@@ -133,7 +132,7 @@
     </v-row>
     </div>
     <!-- FIN SEGUNDO NVIDIA GEFORCE NOW-->
-
+    <v-divider class="mt-5"></v-divider>
     <!-- TERCERO PROYECT XCLOUD-->
     <div id="Cloud__Xcloud" class="mt-10">
     <v-row>
@@ -173,22 +172,22 @@
     </v-row>
     </div>
     <!-- FIN TERCERO PROYECT XCLOUD-->
-
+    <v-divider class="mt-5"></v-divider>
     <!-- CUARTO Playkey-->
     <div id="Cloud__Playkey" class="mt-10">
     <v-row>
       <v-col md="8">
         <div>
         <h1>Playkey</h1>
-       <p class="text-sm-body-2 text-md-body-1 text-xl-h6 text-left">Playkey permite a los usuarios conectarse a sus servidores de juegos a través de cualquier dispositivo moderno a través de Internet. La iniciativa para seguir adelante con la clave de juego fue en el año 2013. Playkey.net planea proporcionar a los jugadores la solución para no tener hardware más reciente o de alta gama en su PC y aún ejecutar juegos de alta gama. Los juegos como GTA V se ejecutan a través de sus servicios en la nube sin problemas de retraso. Puedes jugar desde $1 por hora</p>
+       <p class="text-sm-body-2 text-md-body-1 text-xl-h6 text-left">Playkey permite a los usuarios conectarse a sus servidores de juegos a través de cualquier dispositivo moderno a través de Internet. La iniciativa para seguir adelante con la clave de juego fue en el año 2013. Playkey planea proporcionar a los jugadores la solución para no tener hardware más reciente o de alta gama en su PC y aún ejecutar juegos de alta gama. Los juegos como GTA V se ejecutan a través de sus servicios en la nube sin problemas de retraso. Puedes jugar desde $2 por hora, mientras mas horas adquieres en una sola compra el precio disminuye!</p>
         <v-expansion-panels accordion>
       <v-expansion-panel>
         <v-expansion-panel-header class="text-sm-body-1 text-md-subtitle-1">Caracteristicas de este proveedor</v-expansion-panel-header>
         <v-expansion-panel-content class="text-sm-body-2 text-md-body-1 text-left">
           <ul>
             <li>Para impulsar a los consumidores, Playkey permite a los nuevos titulares de cuentas una demostración de juego gratuita de 20 minutos.</li>
-            <li>Una PC de consumo puede tener especificaciones tan bajas como un procesador de 1,5 GHz, 1 GB de RAM, Windows 7, 8, 10, Mac OS 10.8 y ejecutar los servicios de Playkey.</li>
-            <li>En una conexión a Internet de baja velocidad como 10 Mbps, los consumidores pueden ejecutar juegos en HD a 30 fps.</li>
+            <li>Una PC de oficina puede tener especificaciones tan bajas como un procesador de 1,5 GHz, 1 GB de RAM, Windows 7, 8, 10, Mac OS 10.8 y ejecutar los servicios de Playkey.</li>
+            <li>En una conexión a Internet de baja velocidad como 10 Mbps, los consumidores pueden ejecutar juegos en HD(720p) a 30 fps.</li>
             <li>Una conexión de 5Ghz proporciona una conexión optimizada y Playkey el cual proporciona una experiencia de juego a 1080p a 60 fps como máximo.</li>
           </ul>
 
@@ -216,8 +215,6 @@
     </div>
     <!-- FIN CUARTO Playkey-->
       </v-container>
-
-
     </div>
 </template>
 <script>

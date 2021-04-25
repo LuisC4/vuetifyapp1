@@ -15,7 +15,7 @@
 
       <v-row>
         <!-- CARD TWITCH -->
-          <v-card  class="mx-lg-auto my-12" max-width="374">
+          <v-card  class="mx-lg-auto mx-sm-6 my-12" max-width="374">
             <template slot="progress">
               <v-progress-linear
                 color="purple lighten-2"
@@ -24,6 +24,7 @@
               ></v-progress-linear>
             </template>
             <v-img
+            
               height="250"
               src="../assets/twitch.jpg"
             ></v-img>
@@ -48,7 +49,7 @@
           </v-card>
 
             <!-- CARD YOUTUBE GAMING -->
-          <v-card  class="mx-lg-auto my-12" max-width="374">
+          <v-card  class="mx-lg-auto mx-sm-12 my-12" max-width="374">
             <template slot="progress">
               <v-progress-linear
                 color="deep-purple"
@@ -76,7 +77,7 @@
             </v-card-actions>
           </v-card>
           <!-- CARD FACEBOOK -->
-          <v-card class="mx-lg-auto my-12" max-width="374">
+          <v-card class="mx-lg-auto mx-sm-6 my-12" max-width="374">
         <template slot="progress">
           <v-progress-linear
             color="deep-purple"
